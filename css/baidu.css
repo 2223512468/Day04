@@ -1,0 +1,58 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #CCE8CF;
+	text-align: center;
+}
+
+nav {
+	background: white;
+	width: 100%;
+	height: 60px;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	float: right;
+	margin-right: 20px;
+}
+
+li {
+	margin-left: 20px;
+}
+
+li a {
+	color: #333333;
+	font-size: 12px;
+}
+
+li a:hover {
+	color: blue;
+	font-size: 16px;
+}
+
+img {
+	width: 270px;
+	height: 130px;
+	margin-top: 120px;
+}
+
+.input_text {
+	width: 520px;
+	height: 30px;
+	margin-top: 30px;
+}
+
+.input_search {
+	width: 80px;
+	height: 36px;
+	background: #0000FF;
+	color: white;
+}
+
+footer {
+	bottom: 10px;
+	width: 100%;
+	position: absolute;
+}
